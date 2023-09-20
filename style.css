@@ -1,0 +1,31 @@
+body {
+    background-image: url(imagenes/552cc6e28668a2176247f59372d9ec76.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(102, 34, 3);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.texto {
+    text-align: center;
+}
+
+.texto div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
